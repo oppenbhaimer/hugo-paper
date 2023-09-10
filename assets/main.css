@@ -559,9 +559,11 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
+.katex { font-size: 1.1em !important; }
+
 .prose {
   color: var(--tw-prose-body);
-  max-width: 65ch;
+  max-width: 100ch;
 }
 
 .prose :where(p):not(:where([class~="not-prose"] *)) {
